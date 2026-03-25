@@ -4,8 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Teste</h1>
+    <header>
+        <a href="https://uniube.br" target="_blank"><img src="img/logoUniube.png" alt="Logo Uniube"></a>
+    </header>
+
+    <main>
+
+    </main>
+    
+    <footer>
+        <form action="" method="get">
+            <fieldset>
+                <legend>Fale conosco</legend>
+                <label for="idName">Nome:</label>
+                <input type="text" id="idName" name="userName" required>
+                <br>
+
+                <label for="idEmail">E-mail:</label>
+                <input type="email" id="idEmail" name="email" required>
+                <br>
+
+                <label for="idPhone">Telefone:</label>
+                <input id="idPhone" type="tel" name="phone" pattern="[0-9]{11}" placeholder="DDD+número">
+                <br>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea name="comentario" id="mensagem"></textarea>
+                <br>
+
+                <button type="submit">Enviar</button>
+            </fieldset>
+        </form>
+
+        <p>Nome: Lucas José Costa Bisinotto</p>
+        <p>RA: 5165837</p>
+    </footer>
 </body>
 </html>
