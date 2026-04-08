@@ -8,6 +8,10 @@ header img{
     width: 200px;
 }
 
+li{
+    margin-left: 25px;
+}
+
 main img{
     width: 50%;
 }
