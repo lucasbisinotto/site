@@ -8,10 +8,18 @@ header img{
     width: 200px;
 }
 
+h1{
+    text-align: center;
+}
+
 li{
     margin-left: 25px;
 }
 
 main img{
     width: 50%;
+}
+
+table, th, td{
+    border: 1px solid black;
 }
