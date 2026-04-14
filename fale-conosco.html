@@ -4,29 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fale conosco</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <form action="" method="get">
-        <fieldset>
-            <legend>Fale conosco</legend>
-            <label for="idName">Nome:</label>
-            <input type="text" id="idName" name="userName" required>
-            <br>
+    <header>
+        <a href="https://uniube.br" target="_blank"><img src="img/logoUniube.png" alt="Logo Uniube"></a>
+        <nav>
+            <a href="internet.html">O que é a Internet</a>
+            <a href="origem.html">Origem da Internet</a>
+            <a href="arpanet.html">ARPANET</a>
+            <a href="surgimento.html">Surgimento da Web</a>
+            <a href="evolucao.html">Evolução dos Navegadores</a>
+            <a href="anos2000.html">Internet nos Anos 2000</a>
+            <a href="redes-sociais.html">Redes Sociais</a>
+            <a href="futuro.html">Futuro da Internet</a>
+            <a href="galeria.html">Galeria de Imagens</a>
+            <a href="fale-conosco.html">Fale Conosco</a>
+        </nav>
+    </header>
 
-            <label for="idEmail">E-mail:</label>
-            <input type="email" id="idEmail" name="email" required>
-            <br>
+    <main>
+        <form action="" method="get">
+            <fieldset>
+                <legend>Fale conosco</legend>
+                <label for="idName">Nome:</label>
+                <input type="text" id="idName" name="userName" required>
+                <br>
 
-            <label for="idPhone">Telefone:</label>
-            <input id="idPhone" type="tel" name="phone" pattern="[0-9]{11}" placeholder="DDD+número">
-            <br>
+                <label for="idEmail">E-mail:</label>
+                <input type="email" id="idEmail" name="email" required>
+                <br>
 
-            <label for="mensagem">Mensagem:</label>
-            <textarea name="comentario" id="mensagem"></textarea>
-            <br>
+                <label for="idPhone">Telefone:</label>
+                <input id="idPhone" type="tel" name="phone" pattern="[0-9]{11}" placeholder="DDD+número">
+                <br>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea name="comentario" id="mensagem"></textarea>
+                <br>
+            </fieldset>
 
             <button type="submit">Enviar</button>
-        </fieldset>
-    </form>
+            
+        </form>
+    </main>
+
+    <footer>
+        <p>Nome: Lucas José Costa Bisinotto</p>
+        <p>RA: 5165837</p>
+    </footer>
 </body>
 </html>
